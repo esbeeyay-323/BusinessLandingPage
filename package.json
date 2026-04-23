@@ -1,0 +1,19 @@
+{
+  "name": "landingpage",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css,md,html}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.8.1",
+    "vite": "^8.0.1"
+  },
+  "dependencies": {
+    "gsap": "^3.14.2"
+  }
+}
