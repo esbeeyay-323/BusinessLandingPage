@@ -14,7 +14,7 @@ export function Footer() {
             <br />A little grace in every gathering.
           </p>
           <span className="eyebrow mb-4 font-body text-[11px] leading-[1.6] font-semibold text-accent mobile:text-[10px]">
-            MADE WITH CARE IN GHANA
+            Powered by SBA
           </span>
         </div>
         <div>

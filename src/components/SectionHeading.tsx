@@ -13,7 +13,7 @@ export function SectionHeading({ eyebrow, title, description, children }: Sectio
           {eyebrow}
         </p>
         <h2>{title}</h2>
-        {description && <p className="mt-4.5 max-w-[510px]">{description}</p>}
+        {description && <p className="mt-4.5 max-w-127.5">{description}</p>}
       </div>
       {children}
     </div>

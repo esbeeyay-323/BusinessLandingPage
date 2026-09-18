@@ -10,9 +10,9 @@ import dessert from '../assets/mr-pugo-KMo2QHe-93M-unsplash.webp';
 export const site = {
   name: 'Harvest & Grace',
   email: 'hello@harvestandgrace.com',
-  phone: '+233 55 960 3409',
-  phoneHref: 'tel:+233559603409',
-  whatsapp: 'https://wa.me/233559603409',
+  phone: '+233 55 770 2206',
+  phoneHref: 'tel:+233557702206',
+  whatsapp: 'https://wa.me/233557702206',
   location: 'Based in Ghana',
 };
 export const images = { hero, heroMobile, pastries, kitchen, muffins, cake, dessert };
