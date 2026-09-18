@@ -5,15 +5,37 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
     "preview": "vite preview",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css,md,html}\""
+    "format": "prettier --write \"src/**/*.{ts,tsx,css}\" index.html *.ts *.json README.md tests",
+    "format:check": "prettier --check \"src/**/*.{ts,tsx,css}\" index.html *.ts *.json README.md tests"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.63.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^26.6.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
     "prettier": "^3.8.1",
-    "vite": "^8.0.1"
+    "prettier-plugin-tailwindcss": "^0.8.1",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.0"
   },
   "dependencies": {
-    "gsap": "^3.14.2"
+    "@ant-design/cssinjs": "^2.1.2",
+    "@fontsource/cormorant-garamond": "^5.3.0",
+    "@fontsource/dm-sans": "^5.3.0",
+    "antd": "^6.6.4",
+    "dayjs": "^1.11.23",
+    "lucide-react": "^1.46.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-router-dom": "^7.18.4"
   }
 }
