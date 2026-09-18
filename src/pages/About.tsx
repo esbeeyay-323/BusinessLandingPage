@@ -38,8 +38,9 @@ export function About() {
         </h1>
         <p>Rooted in Ghana. Brought to life around your table.</p>
       </section>
-      <div className="h-[440px] w-full overflow-hidden mobile:h-[300px] [&_img]:h-full [&_img]:object-cover [&_img]:object-[center_45%]">
+      <div className="mx-auto w-[min(760px,calc(100%-112px))] laptop:w-[min(760px,calc(100%-72px))] mobile:w-[calc(100%-40px)]">
         <img
+          className="h-auto w-full"
           src={images.kitchen}
           alt="A chef finishing handmade pastries in the kitchen"
           width="1200"
